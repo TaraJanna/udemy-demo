@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactgegevens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="practice.html"><li>Home</li></a>
+                <a href="overons.html"><li>Uitleg</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="contact2"><li>Contact Twee</li></a>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contact me!</h1>
+    <p>Vul hier het contactformulier in:</p>
+
+    <form> 
+      <input type="text" name="name" placeholder="Voor- en achternaam" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <input type="tel" name="mobiel" placeholder="0612345678" 
+      pattern="d{10}" requierd>
+      <textarea name="bericht" placeholder="Jouw bericht"></textarea>
+      <button type="submit"> Verstuur </button>
+    </form>
+
+
+</body>
+</html>
